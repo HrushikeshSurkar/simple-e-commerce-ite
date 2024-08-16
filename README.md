@@ -21,7 +21,7 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/hrushikeshsur/your-repository.git
+    [git clone https://github.com/hrushikeshsur/your-repository.git](https://github.com/HrushikeshSurkar/simple-e-commerce-site)
     cd your-repository
     ```
 
