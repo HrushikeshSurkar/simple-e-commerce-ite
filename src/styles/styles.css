@@ -1,0 +1,44 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background for the whole site */
+}
+
+nav {
+  background-color: #007bff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start; /* Aligns items to the left */
+  align-items: center; /* Vertically centers items */
+}
+
+nav li {
+  margin-right: 20px; /* Space between menu items */
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  border-radius: 4px; /* Adds rounded corners */
+}
+
+nav a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  text-decoration: none; /* Keep text-decoration consistent on hover */
+}
+
+/* Optional: To visually separate the active page link */
+nav a.active {
+  background-color: #0056b3; /* Same as hover color */
+}
